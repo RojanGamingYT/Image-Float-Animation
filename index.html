@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Float</title>
+</head>
+<body>
+    <img src="headphone.png">
+</body>
+
+
+<style>
+img{
+    width: 300px;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+@keyframes float {
+
+0%{
+    transform: translateY(0px);
+}
+50%{
+    transform: translateY(-60px);
+}
+100%{
+    transform: translateY(0px);
+}
+}
+</style>
+</html>
